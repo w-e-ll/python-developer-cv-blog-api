@@ -1,0 +1,22 @@
+<div class="row">
+<div class="text-center copyright">
+  <hr />
+    <table class="table">
+        <tr>
+          <td class="col-md-6" style='border:none'>
+            <p>Last updated at: {{ object.modified }}<br /><strong>Python Developer &copy; 2015 - {% now "Y" %}</strong></p>
+          </td>
+          <td class="col-md-6" style='border:none'>
+            <div xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb"> <a href="{% url 'cv_page' %}#-about" rel="v:url" property="v:title">[W]Networks</a> » </span>
+                <span typeof="v:Breadcrumb"> <a href="{% url 'cv_page' %}#-main_qualifications" rel="v:url" property="v:title"> #Qualifications</a> </span>
+            </div>
+            <div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review-aggregate">
+                <span property="v:itemreviewed">[W]</span>
+                <span rel="v:rating"><span typeof="v:Rating">Rating: <span property="v:average">10</span>/<span property="v:best">10</span></span></span> based on <span property="v:votes">43</span> votes and <span property="v:count">57</span> reviews.
+            </div>
+          </td>
+        </tr>
+    </table>
+</div>
+</div>

@@ -1,0 +1,16 @@
+{% extends 'blog.html' %}
+{% block title %}Thank you{% endblock %}
+
+{% block header %}
+<h3>Thank you</h3>
+{% endblock %}
+
+{% block content %}
+<meta http-equiv="refresh" content="7;url={% url 'home' %}" />
+<div class="Absolute-Center is-Responsive">
+<div class="col-sm-12 col-md-10 col-md-offset-1">
+<h3>Hi there!!!</h3>
+<p>Thank you for contacting me. I appreciate that you've taken the time to write me.<br /><br /> <strong>I'll get back to you very soon.</strong></p>
+</div>
+</div>
+{% endblock %}
