@@ -19,7 +19,7 @@ django-robots==3.0
 django-suit==0.2.25
 django-toolbelt==0.0.1
 django-wysiwyg-redactor==0.5.1
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 et-xmlfile==1.0.1
 gunicorn==19.7.1
